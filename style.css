@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   text-align: center; 
+   background-color: none;
+}
+.btn{
+    height: 20vmin;
+    width: 20vmin;
+    background-color:linear-gradient(315deg, #cacaca, #f0f0f0);
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: -5px -5px 10px #808080,
+    5px 5px 10px #ffffff;
+    font-size:15vh;
+    font-weight:bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.xColor {
+    color: rgb(89,40,37);
+  }
+  .oColor {
+    color: rgb(37, 40, 89);
+  }
+
+.game{
+    width: 65vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.reset{
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    background-color:linear-gradient(315deg, #cacaca, #f0f0f0);
+    border: none;
+    color:rgb(89,40,37);
+    font-weight:bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    box-shadow: -5px -5px 10px #808080,
+    5px 5px 10px #ffffff;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.hide{
+    visibility: hidden;
+}
+.msg-container{
+    margin:  2vh auto;
+    width: 50vmin;
+    border-radius: 1rem;
+    background-color:rgb(37, 40, 89);
+    padding: 1rem;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    box-shadow: -5px -5px 10px #808080,
+    5px 5px 10px #ffffff;
+}
